@@ -341,6 +341,10 @@ and (min-device-width: 1024px){
         margin-top: 16%;
     }
 
+    .diff-div hr {
+        width: 10%;
+    }
+
     .work-div-content {
         display: flex;
         justify-content: space-between;

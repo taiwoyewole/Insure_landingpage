@@ -1,7 +1,7 @@
 .overlay {
     position: fixed;
     z-index: 1;
-    top: 8%;
+    top: 9%;
     left: 0;
     height: 100%;
     width: 0;
@@ -39,6 +39,7 @@
 }
 .overlay .menu-list:hover, .active, .closebtn {
     border: 2px solid #fff;
+    margin-bottom: 0 !important;
 }
 
 .active:hover {
@@ -49,7 +50,8 @@
     position: absolute;
     top: 20px;
     right: 45px;
-    font-size: 60px;
+    font-size: 45px;
+    padding: .5rem;
 }
 
 @media screen and (max-height: 450px) {
@@ -60,9 +62,3 @@
         right: 35px;
     }
 }
-
-    /* border-radius: 10px;
-    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
-    animation-name: modalopen;
-    animation-duration: var(--modal-duration);
-} */
