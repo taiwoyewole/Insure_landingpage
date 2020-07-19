@@ -1,7 +1,7 @@
 .overlay {
     position: fixed;
     z-index: 1;
-    top: 9%;
+    top: 13%;
     left: 0;
     height: 100%;
     width: 0;
@@ -35,7 +35,7 @@
     color: hsl(216, 30%, 68%);
 }
 .overlay .menu-list {
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 .overlay .menu-list:hover, .active, .closebtn {
     border: 2px solid #fff;
