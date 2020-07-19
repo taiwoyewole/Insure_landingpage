@@ -1,0 +1,362 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 100%;
+}
+
+/*---------------------------- header------------------------------ */
+.nav-link {
+    color:  hsl(216, 30%, 68%);
+    font-weight: 600;
+}
+.nav-link:hover {
+    color:   hsl(256, 26%, 20%);
+}
+.navbar span img {
+    width: 125%;
+    cursor: pointer;
+}
+/* ------------------------main --------------------------------- */
+.plan-one {
+    border: 1px solid hsl(270, 9%, 17%);
+    background: #fff ;
+}
+
+.plan-one:hover {
+    background: hsl(270, 9%, 17%);
+    color: #fff;
+    text-decoration: none;
+}
+
+.plan-two {
+    border: 1px solid white;
+    color: #fff;
+}
+
+.plan-two:hover {
+    color: hsl(256, 26%, 20%);
+    font-weight: 600;
+    background: #fff;
+    text-decoration: none;
+}
+#home-sec {
+    background: hsl(256, 26%, 20%);
+    color: #fff;
+}
+.diff-div {
+    margin-top: 7rem;
+}
+
+.diff-div hr {
+    width: 20%;
+    border-width: 2px;
+    margin: 3rem auto 2rem;
+    max-width: auto;
+    display: block;
+    
+}
+
+.diff-div h2 {
+    /* text-align: center; */
+    font-size: 215%;
+}
+.card {
+    border: none;
+}
+
+.work-div {
+    background-color: hsl(256, 26%, 20%);
+}
+
+.mobile-img-two {
+    position: absolute;
+    right: 0;
+}
+.work-div-content {
+    color: #fff;
+    padding: 5rem 0;
+}
+
+.work-div-content .plan-two {
+    width: fit-content;
+    margin: 1.5rem auto;
+}
+
+.work-div-content h2 {
+    padding-bottom: 1rem;
+    font-size: 255%;
+}
+/* ------------------------ footer ----------------------- */
+footer {
+    background-color: hsl(0, 0%, 98%);
+}
+
+.footer-logo .desktop-img, .desktop-img-two {
+    display: none;
+}
+
+.footer-logo .mobile-img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: -202%;
+    z-index: 2;
+}
+footer .card-text {
+    color: hsl(270, 9%, 17%);
+    font-weight: bold;
+}
+
+footer .card-title {
+    color: hsl(216, 30%, 68%);
+}
+
+footer hr {
+    border-width: 2px;
+    display: block;
+    margin: 2rem 0;
+}
+
+.icon img:hover {
+    color: hsl(256, 26%, 20%);
+    width: 5%;
+}
+
+.bg {
+    background-color: hsl(0, 0%, 98%);
+}
+
+/* ---- MEDIA QUERIES ---- */
+
+/* small screen sizes */
+@media only screen
+and (max-device-width: 699px) {
+    .navbar-nav {
+        display: none;
+    }
+    .img-one {
+        width: 100%;
+    }
+    .desktop,
+    hr {
+        display: none;
+    }
+    .text-div {
+        text-align: center;
+        position: relative;
+        top: -65px;
+    }
+    .text-div h1 {
+        font-size: 278%;
+        line-height: 60px;
+    }
+    .right-pattern-img {
+        position: absolute;
+        right: 0;
+        bottom: -200px;
+    }
+}
+@media (max-width: 769px){
+    footer .col{
+         display: grid;
+         place-items: center;
+     }
+     
+ } 
+ 
+ @media(max-width: 750px) {
+     .summary {
+        display: grid;
+        justify-content: center;
+     }
+ }
+/*landscape medium screen sizes (tablets, ipads etc) */
+@media only screen
+and (min-device-width: 700px) {
+    .navbar span {
+        display: none;
+    }
+
+    .navbar-nav {
+        display: flex;
+    }
+
+    .mobile {
+        display: none !important;
+    }
+
+    .inner-div {
+        padding: 0 1rem !important;
+    }
+    .desktop,
+    .text-div hr {
+        display: inline-block !important;
+    }
+    .text-div hr {
+        border-color: white;
+        margin-top: 5rem;
+    }
+
+    .home-img {
+        position: absolute;
+        left: 50%;
+        top: 35%;
+        z-index: 1;
+    }
+
+    .left-pattern-img {
+        position: absolute;
+        left: 0;
+        top: 76%;
+        z-index: 1;
+    }
+    
+    .right-pattern-img {
+        left: 57%;
+        position: absolute;
+        top: 0;
+    }
+    .text-div {
+        text-align: left;
+        position: relative;
+        top: -4%;
+        max-width: 50%;
+    }
+
+    .sect-one{
+        margin-top: 40%;
+        margin-bottom: 5%;
+    }
+
+    .diff-div h2 {
+        text-align: left !important;
+        font-size: 270%;
+    }
+
+    .diff-div hr {
+        text-align: left;
+        margin: 3rem 0 2rem;
+    }
+    .desktop-img-two {
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+
+    .work-div-content {
+        padding: 3.7rem 4rem;
+    }
+
+    .work-div-content h2 {
+        font-size: 245%;
+    }
+
+    .work-div-content .plan-two {
+        padding: 1rem!important;
+    }
+
+    footer {
+        margin-top: 8rem;
+    }
+
+    .footer-logo .mobile-img, .mobile-img-two {
+        display: none;
+    }
+    .footer-logo .desktop-img {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: -195%;
+        left: 0;
+    }
+
+    .desktop-img {
+        z-index: 2 !important;
+    }
+    footer hr {
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+/* landscape mode and large screen sizes */
+ @media only screen
+and (min-device-width: 1024px){
+    #myNav span {
+        display: none;
+    }
+    .navbar-nav {
+        display: flex;
+    }
+    .plan-one {
+        padding: 0.5rem 3rem !important;
+        margin: 0 3rem !important;
+    }
+    #home-sec {
+        height: 640px;
+    }
+    #home-sec .row {
+        padding-left: 5rem;
+    }
+    hr {
+        margin: 6rem 0 3rem 0!important;
+    } 
+    .text-div {
+        max-width: 45%;
+    }
+    .text-div h1 {
+        width: 65%;
+        font-size: 300% !important;
+        font-weight: 800 !important;
+    }
+
+    .right-pattern-img {
+        left: 70%;
+    }
+    .text-div p {
+        font-size: 18px;
+    }
+    .left-pattern-img {
+        left: -9%;
+        top: 80%;
+    }
+    .home-img {
+        position: absolute;
+        top: 28%;
+        right: 5%;
+    }
+    
+    .sect-one {
+        margin-top: 16%;
+    }
+
+    .work-div-content {
+        display: flex;
+        justify-content: space-between;
+    }
+    .work-div-content .col-md-8, .work-div-content.col-lg-8 {
+        max-width: 48%;
+    }
+}
+@media only screen
+and (min-device-width: 1230px){
+    .sect-one {
+        margin-top: 10%;
+    }
+    .work-div-content .col-md-8, .work-div-content.col-lg-8 {
+        max-width: 34%;
+    }
+}
+
+

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Insure</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- Google fonts  -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modal.css">
+</head>
+<body>
+    <div class="container m-0 p-0 w-100">
+        <header>
+            <nav class="navbar navbar-expand-sm justify-content-around py-4">
+                <img class="navbar-brand" src="img/logo.svg" alt="Logo">
+
+                <!-- Modal  -->
+                <div id="myNav" class="overlay">
+
+                    <!-- Button to close the modal  -->
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                    <!-- modal-content -->
+                    <div class="overlay-content">
+                        <ul>
+                            <li class="menu-list"><a href="#home-sec">HOW WE WORK</a></li>
+                            <li class="menu-list"><a href="">BLOG</a></li>
+                            <li class="menu-list"><a href="">ACCOUNT</a></li>
+                            <li class="menu-list active"><a href="">VIEW PLANS</a></li>
+                        </ul>
+                    </div> 
+                </div>
+
+                <!-- Toggler Button -->
+                <span onclick="openNav()"><img src="img/icon-hamburger.svg" alt=""></span>
+            
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link px-3" href="#">HOW WE WORK</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link px-3" href="#">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link px-3" href="#">ACCOUNT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link px-4 py-2 plan-one">VIEW PLANS</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Navbar Ends Here -->
+        <main>
+            <section id="home-sec">
+                <div class="container m-0 p-0">
+                    <div class="row m-0">
+                        <div class="inner-div col-md-12 col-sm-12 p-0">
+                            <div class="home-img">
+                                <img class="mobile img-one img-fluid" src="img/image-intro-mobile.jpg" alt="">
+                                <img class="desktop img-one img-fluid" src="img/image-intro-desktop.jpg" alt="homepage-Image">
+                            </div>
+                            <div class="left-pattern-img">
+                                <img class="mobile img-fluid" src="img/bg-pattern-intro-left-mobile.svg" alt="">
+                                <img  class="desktop img-fluid" src="img/bg-pattern-intro-left-desktop.svg" alt="">
+                            </div>
+                            <div class="text-div px-2 pb-5">
+                                <hr class="w-25 pt-3">
+                                <h1 class="pb-3">Humanizing your insurance.</h1>
+                                <p class="mb-5">
+                                    Get your life insurance coverage easier and faster. We blend our expertise and technology to help you find the plan that’s right for you. Ensure you and your loved ones are protected.
+                                </p>
+                                <a href="#" class="plan-two py-3 px-5">VIEW PLANS</a>
+                            </div>
+                            <div class="right-pattern-img">
+                                <img class="mobile img-fluid" src="img/bg-pattern-intro-right-mobile.svg" alt="">
+                                <img class="desktop img-fluid" src="img/bg-pattern-intro-right-desktop.svg" alt="">
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <section class="sect-one">
+            <div class="container-fluid px-5">
+                <div class="row diff-div">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                        <div class="mb-3">
+                            <hr>
+                            <h2 class="text-center font-weight-bold">We're Different</h2>
+                        </div>
+                        <div class="row row-cols-1 row-cols-md-3 my-5">
+                            <div class="col mb-4 summary p-0 my-3">
+                                <div class="card">
+                                    <img src="img/icon-snappy-process.svg" class="img-fluid m-auto w-25 card-img-top" alt="">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-body font-weight-bold">Snappy Process</h4>
+                                        <p class="card-text">Our application process can be completed in minutes, not hours. Don't get caught filling in tedious forms.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-4 summary p-0 my-3">
+                                <div class="card">
+                                    <img src="img/icon-affordable-prices.svg" class="img-fluid m-auto w-25 card-img-top" alt="">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-body font-weight-bold">Affordable Prices</h4>
+                                        <p class="card-text">We don't want you worrying about high monthly costs. Our prices may be low, but we still offer the best coverage possible.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-4 summary p-0 my-3">
+                                <div class="card">
+                                    <img src="img/icon-people-first.svg" class="img-fluid w-25 m-auto card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-body font-weight-bold">People First</h4>
+                                        <p class="card-text">Our plans aren't full of conditions and clauses to prevent payouts. We make sure you are covered when you need it.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sect-two my-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 sm-12 md-12 lg-12 work-div">
+                        <img class="img-fluid mobile-img-two" src="img/bg-pattern-how-we-work-mobile.svg" alt="">
+                        <img class="img-fluid desktop-img-two" src="img/bg-pattern-how-we-work-desktop.svg" alt="">
+                        <div class="row work-div-content">
+                            <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+                                <h2 class="text-center font-weight-bold">Find out more about how we work</h2>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                                <a class="plan-two d-block my-2 py-3 px-4" href="">HOW WE WORK</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+          <footer>
+              <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="row footer-logo text-center pt-5">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 my-3">
+                                <img class="mobile-img img-fluid" src="img/bg-pattern-footer-mobile.svg" alt="">
+                                <img class="desktop-img img-fluid" src="img/bg-pattern-footer-desktop.svg" alt="">
+                                <img src="img/logo.svg" alt="Logo" class="logo">
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 my-3">
+                                <a class="icon p-2" href="#"><img src="img/icon-facebook.svg" alt="">
+                                <a class="icon p-2" href="#"><img src="img/icon-twitter.svg" alt=""></a>
+                                <a class="icon p-2" href="#"><img src="img/icon-pinterest.svg" alt=""></a>
+                                <a class="icon p-2" href="#"><img src="img/icon-instagram.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row row-cols-1 row-cols-md-4 text-center">
+                            <div class="col mb-4">
+                                <div class="card">
+                                    <div class="card-body bg">
+                                        <div class="card-title my-4">
+                                            <h6 class="font-weight-bold">
+                                                OUR COMPANY
+                                            </h6>
+                                        </div>
+                                        <h6 class="card-text py-2">HOW WE WORK</h6>
+                                        <h6 class="card-text py-2">WHY INSURE?</h6>
+                                        <h6 class="card-text py-2">CHECK PRICE</h6>
+                                        <h6 class="card-text pt-2">REVIEWS</h6>
+                                    </div>
+                                </div>
+                            </div>
+                                
+                            <div class="col mb-4">
+                                <div class="card">
+                                    <div class="card-body bg">
+                                        <div class="card-title fon my-4">
+                                            <h6 class="font-weight-bold">
+                                                HELP ME
+                                            </h6>
+                                        </div>
+                                        <h6 class="card-text py-2">FAQ</h6>
+                                        <h6 class="card-text py-2">TERMS OF USE</h6>
+                                        <h6 class="card-text py-2">PRIVACY POLICY</h6>
+                                        <h6 class="card-text pt-2">COOKIES</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-4">
+                                <div class="card">
+                                    <div class="card-body bg">
+                                        <div class="card-title my-4">
+                                            <h6 class="font-weight-bold">
+                                                CONTACT
+                                            </h6>
+                                        </div>
+                                        <h6 class="card-text py-2">SALES</h6>
+                                        <h6 class="card-text py-2">SUPPORT</h6>
+                                        <h6 class="card-text py-2">LIVE CHAT</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-4">
+                                <div class="card">
+                                    <div class="card-body bg">
+                                        <div class="card-title my-4">
+                                            <h6 class="font-weight-bold">
+                                                OTHERS
+                                            </h6>
+                                        </div>
+                                        <h6 class="card-text py-2">CAREERS</h6>
+                                        <h6 class="card-text py-2">PRESS</h6>
+                                        <h6 class="card-text py-2">LICENSES</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+              <!-- <div class="d-flex justify-content-around bg"> -->
+                
+                
+                
+                
+             
+              </div>
+          </footer>
+        
+<!-- Bootstrap -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<!-- script.js file -->
+<script src="script.js"></script>
+</body>
+</html>
